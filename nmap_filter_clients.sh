@@ -3,6 +3,7 @@
 client_list=$1
 
 
+# print the date/time (first line)
 cat $client_list | sed -n '1 p'
 
 # print file excluding last line:
